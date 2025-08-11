@@ -28,8 +28,8 @@ class MenuActivity : AppCompatActivity() {
         applyStatusBarInset(toolbar)
 
         // ListView
-        val demoTitles = listOf("Hello Triangle 1", "Hello Triangle 2")
-        val demoIds    = listOf("triangle1", "triangle2")
+        val demoTitles = listOf("GLES Clear Sample")
+        val demoIds = listOf("gles/clear")
 
         val listView = findViewById<ListView>(R.id.listView).apply {
             // 讓最後一個 item 不被 navigation bar 擋住
